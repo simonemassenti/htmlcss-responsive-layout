@@ -292,3 +292,21 @@ nav {
     }
 }
 /* /get started section */
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        width: 40%;
+    }
+}
