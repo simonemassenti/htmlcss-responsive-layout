@@ -14,13 +14,14 @@ body {
 
 /* HEADER */
 header {
-    padding: 0 2rem;
     background-color: aquamarine;
     height: 4rem;
     line-height: 4rem;
 }
 
 .container-header {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -48,5 +49,43 @@ nav {
         display: flex; 
         gap: 1rem;
         list-style-type: none;  
+    }
+}
+
+/* /HEDAER */
+
+/* MAIN */
+.functionalities-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    /* debug */
+    min-height: 150px;
+    background-color: orange;
+    margin: 1rem 0;
+}
+
+.first {
+    /* debug */
+    min-height: 350px;
+    background-color: red;
+}
+
+@media screen and (min-width: 768px) {
+    .functionalities-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    
+    .card {
+        width: calc(100% / 3 - 2rem / 3);
+    }
+
+    .first {
+        width: calc(100% - (100% / 3) - 1rem / 2);
     }
 }
