@@ -273,3 +273,22 @@ nav {
     }
 }
 /* /about us section */
+
+/* get started section */
+.get-started-container {
+    background-color: green;
+    padding: 1rem;
+    text-align: center;
+}
+
+.get-started-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .get-started-wrap {
+        width: 40%;
+    }
+}
+/* /get started section */
