@@ -145,7 +145,7 @@ nav {
 /* partners section */
 .partners-container {
     text-align: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -183,3 +183,48 @@ nav {
     }
 }
 /* /testimonials section */
+
+/* benefits sections */
+
+.benefits-container {
+    background-color: green;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.benefit-card {
+    width: 90%;
+    margin: 1rem auto;
+    text-align: left;
+    background-color: greenyellow;
+    padding: 1rem;
+}
+
+.benefit-card *{
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .benefit-card {
+        width: calc(100% / 2 - 1rem);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card-wrapper {
+        width: 80%;
+    }
+
+    .benefit-card {
+        width: calc(100% / 3 - 1rem);
+    }
+}
+/* /benefits sections */
