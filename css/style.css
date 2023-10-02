@@ -12,4 +12,41 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+/* HEADER */
+header {
+    padding: 0 2rem;
+    background-color: aquamarine;
+    height: 4rem;
+    line-height: 4rem;
+}
 
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        background-color: aqua;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+    ul {
+        display: flex; 
+        gap: 1rem;
+        list-style-type: none;  
+    }
+}
