@@ -228,3 +228,48 @@ nav {
     }
 }
 /* /benefits sections */
+
+/* about us section */
+.about-us-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.description p {
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-container {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    
+    .description {
+        width: 60%;
+    }
+
+    .right-about-us {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .about-us-container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    
+    .description {
+        width: 60%;
+    }
+
+    .right-about-us {
+        width: 40%;
+    }
+}
+/* /about us section */
