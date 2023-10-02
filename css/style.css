@@ -76,6 +76,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .functionalities-container {
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -100,6 +101,11 @@ nav {
     text-align: center;
 }
 
+.planning-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .planning-img {
     /* debugging */
     width: 80%;
@@ -109,8 +115,6 @@ nav {
 }
 
 .app-card {
-    width: 90%;
-    margin: 0 auto;
     padding: 1rem;
     background-color: greenyellow;
 }
@@ -121,9 +125,9 @@ nav {
 
 @media screen and (min-width: 992px) {
     .planning-wrap {
-        width: 70%;
+        width: 60%;
+        margin: 0 auto;
         display: flex;
-        margin-left: 10%;
         gap: 2rem;
     }
     
@@ -138,6 +142,44 @@ nav {
 }
 /* /planning section */
 
-/* testimonials section */
+/* partners section */
+.partners-container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
 
+.partner-card {
+    background-color: yellow;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 1rem auto;
+}
+
+.partner-card p{
+    margin: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .partners-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .partner-card {
+        display: flex;
+    }
+    
+    .partner-info {
+        width: 70%;
+    }
+}
 /* /testimonials section */
